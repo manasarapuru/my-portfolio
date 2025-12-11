@@ -7,8 +7,8 @@ How can the landing page of scanpy's documentation be improved to give user's of
 
 ## Table of contents
 - [Overview](#overview)
-- [Highlights](#highlights)
-- [Objectives](#objectives)
+- [CurrentLayout](#currentlayout)
+- [Painpoints](#painpoints)
 - [Methods](#methods)
 - [Results](#results)
 - [Discussion](#discussion)
@@ -35,7 +35,7 @@ This case study focuses on:
 
 ---
 
-## Current Layout
+## CurrentLayout
 
 ![Scanpy Landing Page](./original.png)
 ---
@@ -50,33 +50,11 @@ Dense, text-heavy homepage | Users can’t quickly understand what Scanpy does o
 
 ---
 
-## Redesign
-![Scanpy Redesign Landing Page](./redesign.png)
-### Approach
-Concise bullets describing the approach and rationale.
 
-- Step 1 — short description  
-- Step 2 — short description
-
-### Tools & versions
-- Python 3.x, pandas 2.x, numpy x.x  
-- Docker image: `company/project:tag`  
-- Others: R, SQL, etc.
-
-### Data
-- Source(s): `dataset_name (version)`  
-- Key filters applied: `filter1`, `filter2`  
-- Sample size: `n = 12,345`
+## Analysis
 
 ---
 
-## Results
-### Key metrics
-| Metric | Value | Target |
-|---:|:---:|:---:|
-| Accuracy | 95.2% | ≥ 92% |
-| Throughput | 1,200 req/s | ≥ 1,000 |
+## Conclusion
 
-### Visuals
-*(Insert charts/images below — screenshot or link)*
 
