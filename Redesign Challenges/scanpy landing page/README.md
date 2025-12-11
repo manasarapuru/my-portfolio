@@ -7,14 +7,8 @@ How can the landing page of scanpy's documentation be improved to give user's of
 
 ## Table of contents
 - [Overview](#overview)
-- [CurrentLayout](#currentlayout)
 - [Painpoints](#painpoints)
-- [Methods](#methods)
-- [Results](#results)
-- [Discussion](#discussion)
-- [Recommendations](#recommendations)
-- [Appendix](#appendix)
-- [Contacts](#contacts)
+  
 
 ---
 
@@ -89,6 +83,10 @@ From the insights above, I defined three main design goals:
 
 - Make the Experience More Inclusive
     - Support both developer-level and non-developer users with progressive disclosure.
+ 
+---
+
+## Pain Points & HCI-Driven Improvements
 
 | Pain Point                         | Why It Was a Problem (HCI Perspective)                          | Design Improvement                                                    | Result / Impact                                           |
 |:---|:---|:---|:---|
@@ -98,43 +96,107 @@ From the insights above, I defined three main design goals:
 | **Developer-centric tone**         | Excluded users with weaker coding backgrounds.                  | Added non-technical explanations and progressive disclosure           | More inclusive experience; accessible to all researchers. |
 
 
+---
 
+## Redesign
 
+Redesigned Experience
+1. A Clear Orientation Section
 
-In this project I wanted  to analyze the current landing page experience and identify where the UX could better support users.
+- Short explanation of what Scanpy is
 
-This case study focuses on:
+- Who it’s for (developers + biologists)
 
-- What users need
+- What users can accomplish
 
-- Where the current experience falls short
+This helps users quickly form a correct mental model.
 
-- Opportunities to make the tutorial landing page more navigable, approachable, and “learnable.”
+2. Prioritized CTAs
 
+- A new, streamlined action row:
 
+- Install
+
+- Start Here
+
+- Try a Tutorial
+
+- Explore Docs
+
+This solves decision paralysis and aligns with common tasks.
+
+3. Beginner-Friendly Learning Flow
+
+- A dedicated “Start Here” pathway guides users to:
+
+- Quickstart guide
+
+- Intro-level tutorials
+
+- Key concepts needed to interpret embeddings and clustering
+
+This reduces onboarding friction.
+
+4. Improved Information Architecture
+
+- Content was grouped into:
+
+    - Getting Started
+
+    - Core Concepts
+
+    - Tutorials
+
+    - Advanced Workflows
+
+    - API References
+
+This matches expectations users have from similar ecosystems (e.g., Seurat, PyTorch, scikit-learn).
+
+![Scanpy Landing Page](./redesign.png)
+
+*Scanpy's Landing Page*
+
+5. Inclusive & Accessible Language
+
+    - Technical content remains intact but now includes:
+
+    - Clearer phrasing
+
+    - More contextual explanations
+
+    - Improved labeling of examples and datasets
+
+This makes the experience more welcoming without sacrificing depth.
 
 ---
 
-## CurrentLayout
+## Impact
+While this is a concept redesign, the expected impact—grounded in HCI best practices—is measurable:
 
-![Scanpy Landing Page](./original.png)
----
+- Reduced bounce rates for newcomers
+- Higher success rate in navigation tasks (installing, starting a tutorial)
 
-## Painpoints
-| Pain Points | Why It Was a Problem | Design Improvement | Impact / Result |
-|:---|:---|:---|:---|
-|No clear CTA (call to action) | Users don’t know what to do next (install? try tutorial? read docs?) | Added primary buttons for “Install”, “Try a Tutorial”, “Explore Docs” | Creates a guided first step and improves conversions into the ecosystem
-| Hard-to-find beginner guidance | New users don’t know where to start; often jump into advanced docs | Added a “Start Here” pathway with Quickstart + Beginner Tutorials | Improves onboarding and reduces bounce rate for new users |
-Dense, text-heavy homepage | Users can’t quickly understand what Scanpy does or who it’s for | Introduced a simplified hero section with a crisp value statement and visual hierarchy | Users immediately understand the tool and can self-identify relevance |
-| More Developer Friendly | Scanpy is used by researchers of all coding experiences, this developer tutorial friendly framework does not make it accessible to others as much | | |
+- Improved comprehension of what Scanpy does and how the workflow fits together
 
----
+- More inclusive experience for users with varying coding skill levels
 
+- Greater tutorial engagement due to clearer entry points
 
-## Analysis
+If implemented, these changes would provide a smoother first experience and improve Scanpy’s usability for the community.
 
 ---
 
-## Conclusion
+## Reflection
+This project reinforced how important information architecture, progressive disclosure, and clear signposting are for scientific tools. Even powerful ecosystems fall short when users struggle to find their way.
 
+By combining HCI principles with domain knowledge in bioinformatics, I was able to propose a more intuitive experience that lowers barriers for new users while still supporting experts.
+
+Next steps could include:
+
+- User testing with real first-time Scanpy learners
+
+- A/B comparisons of the redesigned layout
+
+- Further expansion of the “Start Here” flow into an interactive tutorial picker
 
