@@ -43,10 +43,10 @@ This case study focuses on:
 
 ---
 
-## Objectives
-| Objective | Success criteria | Priority |
-|---:|:---|:---:|
-| Objective 1 | Clear measurable criteria | High |
+## Painpoints
+| Pain Points | Why It Was a Problem | Design Improvement | Impact / Result |
+|---:|:---|:---|:---:|
+|No clear CTA (call to action) | Users don’t know what to do next (install? try tutorial? read docs?) | Added primary buttons for “Install”, “Try a Tutorial”, “Explore Docs” | Creates a guided first step and improves conversions into the ecosystem
 | Objective 2 | Clear measurable criteria | Medium |
 
 ---
