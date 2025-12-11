@@ -35,19 +35,17 @@ This case study focuses on:
 
 ---
 
-## Thought Process
-- (insert flow)
-- **Primary result:** One short sentence summarizing the most important finding.
-- **Impact:** What this means for stakeholders.
-- **Quick numbers:** `Metric A: X` · `Metric B: Y`
+## Current Layout
+- 
 
 ---
 
 ## Painpoints
 | Pain Points | Why It Was a Problem | Design Improvement | Impact / Result |
-|---:|:---|:---|:---:|
+|:---|:---|:---|:---|
 |No clear CTA (call to action) | Users don’t know what to do next (install? try tutorial? read docs?) | Added primary buttons for “Install”, “Try a Tutorial”, “Explore Docs” | Creates a guided first step and improves conversions into the ecosystem
-| Objective 2 | Clear measurable criteria | Medium |
+| Hard-to-find beginner guidance | New users don’t know where to start; often jump into advanced docs | Added a “Start Here” pathway with Quickstart + Beginner Tutorials | Improves onboarding and reduces bounce rate for new users |
+Dense, text-heavy homepage | Users can’t quickly understand what Scanpy does or who it’s for | Introduced a simplified hero section with a crisp value statement and visual hierarchy | Users immediately understand the tool and can self-identify relevance |
 
 ---
 
