@@ -36,8 +36,8 @@ This case study focuses on:
 ---
 
 ## Current Layout
-- 
 
+![Scanpy Landing Page](./original.png)
 ---
 
 ## Painpoints
@@ -46,10 +46,12 @@ This case study focuses on:
 |No clear CTA (call to action) | Users don’t know what to do next (install? try tutorial? read docs?) | Added primary buttons for “Install”, “Try a Tutorial”, “Explore Docs” | Creates a guided first step and improves conversions into the ecosystem
 | Hard-to-find beginner guidance | New users don’t know where to start; often jump into advanced docs | Added a “Start Here” pathway with Quickstart + Beginner Tutorials | Improves onboarding and reduces bounce rate for new users |
 Dense, text-heavy homepage | Users can’t quickly understand what Scanpy does or who it’s for | Introduced a simplified hero section with a crisp value statement and visual hierarchy | Users immediately understand the tool and can self-identify relevance |
+| More Developer Friendly | Scanpy is used by researchers of all coding experiences, this developer tutorial friendly framework does not make it accessible to others as much | | |
 
 ---
 
-## Methods
+## Redesign
+![Scanpy Redesign Landing Page](./redesign.png)
 ### Approach
 Concise bullets describing the approach and rationale.
 
