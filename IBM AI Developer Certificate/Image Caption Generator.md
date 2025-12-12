@@ -23,3 +23,4 @@
 ### Applications of Converting Image To Text:
 - Medical: Annotating/deciphering medical imaging data
 - Non Medical: Recommendations system
+- Architecture is to use an appropriate hugging face model and then to give it a gradio or streamlit interaction interface
